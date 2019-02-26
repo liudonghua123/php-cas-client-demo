@@ -14,7 +14,7 @@
 			<li class="active"><a href="/index.php">You are on the /index.php page</a></li>
 			<li><a href="/protected/index.php">Call the /protected/index.php page</a></li>
 			<!-- #### change with your own CAS server and your host name #### -->
-			<li><a href="http://localhost:8888/cas/logout?service=http://localhost">Call the CAS logout</a></li>
+			<li><a href="http://ids.ynu.edu.cn/authserver/logout?service=http://localhost:8080">Call the CAS logout</a></li>
 		</ul>
 		<h3>
 			<?php
