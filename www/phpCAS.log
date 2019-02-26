@@ -1,0 +1,621 @@
+6D7B .START phpCAS-1.3.3 ****************** [CAS.php:438]
+6D7B .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+6D7B .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+6D7B .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+6D7B .|    <= ''
+6D7B .<= ''
+6D7B .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login') [casconfig.php:8]
+6D7B .<= ''
+6D7B .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+6D7B .<= ''
+6D7B .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/proxyValidate') [casconfig.php:10]
+6D7B .<= ''
+6D7B .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+6D7B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+6D7B .<= ''
+6D7B .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+6D7B .|    Not a logout request [Client.php:1689]
+6D7B .<= ''
+6D7B .=> phpCAS::checkAuthentication() [index.php:21]
+6D7B .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+6D7B .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+6D7B .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+6D7B .|    |    |    |    no user found [Client.php:1592]
+6D7B .|    |    |    <= false
+6D7B .|    |    |    no ticket found [Client.php:1453]
+6D7B .|    |    <= false
+6D7B .|    |    user is not authenticated (cache reset) [Client.php:1334]
+6D7B .|    |    => CAS_Client::redirectToCas(true) [Client.php:1335]
+6D7B .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1613]
+6D7B .|    |    |    <= 'http://ids.ynu.edu.cn/authserver/login?gateway=true'
+6D7B .|    |    |    Redirect to : http://ids.ynu.edu.cn/authserver/login?gateway=true [Client.php:1620]
+6D7B .|    |    |    exit()
+6D7B .|    |    |    -
+6D7B .|    |    -
+6D7B .|    -
+BB43 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+BB43 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+BB43 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+BB43 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+BB43 .|    <= ''
+BB43 .<= ''
+BB43 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login') [casconfig.php:8]
+BB43 .<= ''
+BB43 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+BB43 .<= ''
+BB43 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/proxyValidate') [casconfig.php:10]
+BB43 .<= ''
+BB43 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+BB43 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+BB43 .<= ''
+BB43 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+BB43 .|    Not a logout request [Client.php:1689]
+BB43 .<= ''
+BB43 .=> phpCAS::checkAuthentication() [index.php:21]
+BB43 .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+BB43 .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+BB43 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+BB43 .|    |    |    |    no user found [Client.php:1592]
+BB43 .|    |    |    <= false
+BB43 .|    |    |    no ticket found [Client.php:1453]
+BB43 .|    |    <= false
+BB43 .|    <= false
+BB43 .<= false
+4FFF .START phpCAS-1.3.3 ****************** [CAS.php:438]
+4FFF .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+4FFF .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+4FFF .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+4FFF .|    <= ''
+4FFF .<= ''
+4FFF .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+4FFF .<= ''
+4FFF .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+4FFF .<= ''
+4FFF .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+4FFF .<= ''
+4FFF .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+4FFF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+4FFF .<= ''
+4FFF .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+4FFF .|    Not a logout request [Client.php:1689]
+4FFF .<= ''
+4FFF .=> phpCAS::checkAuthentication() [index.php:21]
+4FFF .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+4FFF .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+4FFF .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+4FFF .|    |    |    |    no user found [Client.php:1592]
+4FFF .|    |    |    <= false
+4FFF .|    |    |    no ticket found [Client.php:1453]
+4FFF .|    |    <= false
+4FFF .|    |    user is not authenticated (cache reset) [Client.php:1334]
+4FFF .|    |    => CAS_Client::redirectToCas(true) [Client.php:1335]
+4FFF .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1613]
+4FFF .|    |    |    <= 'http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php&gateway=true'
+4FFF .|    |    |    Redirect to : http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php&gateway=true [Client.php:1620]
+4FFF .|    |    |    exit()
+4FFF .|    |    |    -
+4FFF .|    |    -
+4FFF .|    -
+7C7A .START phpCAS-1.3.3 ****************** [CAS.php:438]
+7C7A .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+7C7A .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+7C7A .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+7C7A .|    |    Ticket 'ST-66707-mfZzhdnYKdgyCAteJ1sD1551169742167-ToJx-ids1' found [Client.php:988]
+7C7A .|    <= ''
+7C7A .<= ''
+7C7A .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+7C7A .<= ''
+7C7A .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+7C7A .<= ''
+7C7A .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+7C7A .<= ''
+7C7A .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+7C7A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+7C7A .<= ''
+7C7A .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+7C7A .|    Not a logout request [Client.php:1689]
+7C7A .<= ''
+7C7A .=> phpCAS::checkAuthentication() [index.php:21]
+7C7A .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+7C7A .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+7C7A .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+7C7A .|    |    |    |    no user found [Client.php:1592]
+7C7A .|    |    |    <= false
+7C7A .|    |    |    CAS 3.0 ticket `ST-66707-mfZzhdnYKdgyCAteJ1sD1551169742167-ToJx-ids1' is present [Client.php:1405]
+7C7A .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1408]
+7C7A .|    |    |    |     [Client.php:3101]
+7C7A .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3108]
+7C7A .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+7C7A .|    |    |    |    |    |    Final URI: http://localhost:8080/index.php [Client.php:3466]
+7C7A .|    |    |    |    |    <= 'http://localhost:8080/index.php'
+7C7A .|    |    |    |    <= 'http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php'
+7C7A .|    |    |    |    => CAS_Client::_readURL('http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php&ticket=ST-66707-mfZzhdnYKdgyCAteJ1sD1551169742167-ToJx-ids1', NULL, NULL, NULL) [Client.php:3118]
+7C7A .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+32F4 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+32F4 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+32F4 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+32F4 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+32F4 .|    |    Ticket 'ST-66708-vFDBqvlE5RwcPVkJNdhA1551169746490-ToJx-ids1' found [Client.php:988]
+32F4 .|    <= ''
+32F4 .<= ''
+32F4 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+32F4 .<= ''
+32F4 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+32F4 .<= ''
+32F4 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+32F4 .<= ''
+32F4 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+32F4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+32F4 .<= ''
+32F4 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+32F4 .|    Not a logout request [Client.php:1689]
+32F4 .<= ''
+32F4 .=> phpCAS::checkAuthentication() [index.php:21]
+32F4 .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+32F4 .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+32F4 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+32F4 .|    |    |    |    no user found [Client.php:1592]
+32F4 .|    |    |    <= false
+32F4 .|    |    |    CAS 3.0 ticket `ST-66708-vFDBqvlE5RwcPVkJNdhA1551169746490-ToJx-ids1' is present [Client.php:1405]
+32F4 .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1408]
+32F4 .|    |    |    |     [Client.php:3101]
+32F4 .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3108]
+32F4 .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+32F4 .|    |    |    |    |    |    Final URI: http://localhost:8080/index.php [Client.php:3466]
+32F4 .|    |    |    |    |    <= 'http://localhost:8080/index.php'
+32F4 .|    |    |    |    <= 'http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php'
+32F4 .|    |    |    |    => CAS_Client::_readURL('http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php&ticket=ST-66708-vFDBqvlE5RwcPVkJNdhA1551169746490-ToJx-ids1', NULL, NULL, NULL) [Client.php:3118]
+32F4 .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+AF51 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+AF51 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+AF51 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+AF51 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+AF51 .|    <= ''
+AF51 .<= ''
+AF51 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+AF51 .<= ''
+AF51 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+AF51 .<= ''
+AF51 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+AF51 .<= ''
+AF51 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+AF51 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+AF51 .<= ''
+AF51 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+AF51 .|    Not a logout request [Client.php:1689]
+AF51 .<= ''
+AF51 .=> phpCAS::checkAuthentication() [index.php:21]
+AF51 .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+AF51 .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+AF51 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+AF51 .|    |    |    |    no user found [Client.php:1592]
+AF51 .|    |    |    <= false
+AF51 .|    |    |    no ticket found [Client.php:1453]
+AF51 .|    |    <= false
+AF51 .|    |    user is not authenticated (cache reset) [Client.php:1334]
+AF51 .|    |    => CAS_Client::redirectToCas(true) [Client.php:1335]
+AF51 .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1613]
+AF51 .|    |    |    <= 'http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php&gateway=true'
+AF51 .|    |    |    Redirect to : http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php&gateway=true [Client.php:1620]
+AF51 .|    |    |    exit()
+AF51 .|    |    |    -
+AF51 .|    |    -
+AF51 .|    -
+212C .START phpCAS-1.3.3 ****************** [CAS.php:438]
+212C .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+212C .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+212C .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+212C .|    <= ''
+212C .<= ''
+212C .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+212C .<= ''
+212C .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+212C .<= ''
+212C .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+212C .<= ''
+212C .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+212C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+212C .<= ''
+212C .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+212C .|    Not a logout request [Client.php:1689]
+212C .<= ''
+212C .=> phpCAS::checkAuthentication() [index.php:21]
+212C .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+212C .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+212C .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+212C .|    |    |    |    no user found [Client.php:1592]
+212C .|    |    |    <= false
+212C .|    |    |    no ticket found [Client.php:1453]
+212C .|    |    <= false
+212C .|    <= false
+212C .<= false
+3A20 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+3A20 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+3A20 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+3A20 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+3A20 .|    |    Ticket 'ST-66715-5a9sAdqeK2nHbKbTsCWE1551169775975-ToJx-ids1' found [Client.php:988]
+3A20 .|    <= ''
+3A20 .<= ''
+3A20 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+3A20 .<= ''
+3A20 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+3A20 .<= ''
+3A20 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+3A20 .<= ''
+3A20 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+3A20 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+3A20 .<= ''
+3A20 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+3A20 .|    Not a logout request [Client.php:1689]
+3A20 .<= ''
+3A20 .=> phpCAS::checkAuthentication() [index.php:21]
+3A20 .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+3A20 .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+3A20 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+3A20 .|    |    |    |    no user found [Client.php:1592]
+3A20 .|    |    |    <= false
+3A20 .|    |    |    CAS 3.0 ticket `ST-66715-5a9sAdqeK2nHbKbTsCWE1551169775975-ToJx-ids1' is present [Client.php:1405]
+3A20 .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1408]
+3A20 .|    |    |    |     [Client.php:3101]
+3A20 .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3108]
+3A20 .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+3A20 .|    |    |    |    |    |    Final URI: http://localhost:8080/index.php [Client.php:3466]
+3A20 .|    |    |    |    |    <= 'http://localhost:8080/index.php'
+3A20 .|    |    |    |    <= 'http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php'
+3A20 .|    |    |    |    => CAS_Client::_readURL('http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php&ticket=ST-66715-5a9sAdqeK2nHbKbTsCWE1551169775975-ToJx-ids1', NULL, NULL, NULL) [Client.php:3118]
+3A20 .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+4FCA .START phpCAS-1.3.3 ****************** [CAS.php:438]
+4FCA .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+4FCA .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+4FCA .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+4FCA .|    |    Ticket 'ST-66723-ZjLXtIDCescYFIgz5Sc51551169782444-ToJx-ids1' found [Client.php:988]
+4FCA .|    <= ''
+4FCA .<= ''
+4FCA .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+4FCA .<= ''
+4FCA .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+4FCA .<= ''
+4FCA .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+4FCA .<= ''
+4FCA .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+4FCA .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+4FCA .<= ''
+4FCA .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+4FCA .|    Not a logout request [Client.php:1689]
+4FCA .<= ''
+4FCA .=> phpCAS::checkAuthentication() [index.php:21]
+4FCA .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+4FCA .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+4FCA .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+4FCA .|    |    |    |    no user found [Client.php:1592]
+4FCA .|    |    |    <= false
+4FCA .|    |    |    CAS 3.0 ticket `ST-66723-ZjLXtIDCescYFIgz5Sc51551169782444-ToJx-ids1' is present [Client.php:1405]
+4FCA .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1408]
+4FCA .|    |    |    |     [Client.php:3101]
+4FCA .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3108]
+4FCA .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+4FCA .|    |    |    |    |    |    Final URI: http://localhost:8080/index.php [Client.php:3466]
+4FCA .|    |    |    |    |    <= 'http://localhost:8080/index.php'
+4FCA .|    |    |    |    <= 'http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php'
+4FCA .|    |    |    |    => CAS_Client::_readURL('http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php&ticket=ST-66723-ZjLXtIDCescYFIgz5Sc51551169782444-ToJx-ids1', NULL, NULL, NULL) [Client.php:3118]
+4FCA .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+A683 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+A683 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+A683 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+A683 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+A683 .|    |    Ticket 'ST-66734-bQd3V3eB1fdwlw2aLO5N1551169793685-ToJx-ids1' found [Client.php:988]
+A683 .|    <= ''
+A683 .<= ''
+A683 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+A683 .<= ''
+A683 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+A683 .<= ''
+A683 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+A683 .<= ''
+A683 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+A683 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+A683 .<= ''
+A683 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+A683 .|    Not a logout request [Client.php:1689]
+A683 .<= ''
+A683 .=> phpCAS::checkAuthentication() [index.php:21]
+A683 .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+A683 .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+A683 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+A683 .|    |    |    |    no user found [Client.php:1592]
+A683 .|    |    |    <= false
+A683 .|    |    |    CAS 3.0 ticket `ST-66734-bQd3V3eB1fdwlw2aLO5N1551169793685-ToJx-ids1' is present [Client.php:1405]
+A683 .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1408]
+A683 .|    |    |    |     [Client.php:3101]
+A683 .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3108]
+A683 .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+A683 .|    |    |    |    |    |    Final URI: http://localhost:8080/index.php [Client.php:3466]
+A683 .|    |    |    |    |    <= 'http://localhost:8080/index.php'
+A683 .|    |    |    |    <= 'http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php'
+A683 .|    |    |    |    => CAS_Client::_readURL('http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php&ticket=ST-66734-bQd3V3eB1fdwlw2aLO5N1551169793685-ToJx-ids1', NULL, NULL, NULL) [Client.php:3118]
+A683 .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+34E2 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+34E2 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+34E2 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+34E2 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+34E2 .|    <= ''
+34E2 .<= ''
+34E2 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+34E2 .<= ''
+34E2 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+34E2 .<= ''
+34E2 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+34E2 .<= ''
+34E2 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+34E2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+34E2 .<= ''
+34E2 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+34E2 .|    Not a logout request [Client.php:1689]
+34E2 .<= ''
+34E2 .=> phpCAS::checkAuthentication() [index.php:21]
+34E2 .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+34E2 .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+34E2 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+34E2 .|    |    |    |    no user found [Client.php:1592]
+34E2 .|    |    |    <= false
+34E2 .|    |    |    no ticket found [Client.php:1453]
+34E2 .|    |    <= false
+34E2 .|    |    user is not authenticated (cache reset) [Client.php:1334]
+34E2 .|    |    => CAS_Client::redirectToCas(true) [Client.php:1335]
+34E2 .|    |    |    => CAS_Client::getServerLoginURL(true, false) [Client.php:1613]
+34E2 .|    |    |    <= 'http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php&gateway=true'
+34E2 .|    |    |    Redirect to : http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php&gateway=true [Client.php:1620]
+34E2 .|    |    |    exit()
+34E2 .|    |    |    -
+34E2 .|    |    -
+34E2 .|    -
+27AD .START phpCAS-1.3.3 ****************** [CAS.php:438]
+27AD .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+27AD .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+27AD .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+27AD .|    |    Ticket 'ST-66844-9aZMzFbNG4joILWVddYV1551170014732-ToJx-ids1' found [Client.php:988]
+27AD .|    <= ''
+27AD .<= ''
+27AD .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+27AD .<= ''
+27AD .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+27AD .<= ''
+27AD .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+27AD .<= ''
+27AD .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+27AD .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+27AD .<= ''
+27AD .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+27AD .|    Not a logout request [Client.php:1689]
+27AD .<= ''
+27AD .=> phpCAS::checkAuthentication() [index.php:21]
+27AD .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+27AD .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+27AD .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+27AD .|    |    |    |    no user found [Client.php:1592]
+27AD .|    |    |    <= false
+27AD .|    |    |    CAS 3.0 ticket `ST-66844-9aZMzFbNG4joILWVddYV1551170014732-ToJx-ids1' is present [Client.php:1405]
+27AD .|    |    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1408]
+27AD .|    |    |    |     [Client.php:3101]
+27AD .|    |    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3108]
+27AD .|    |    |    |    |    => CAS_Client::getURL() [Client.php:453]
+27AD .|    |    |    |    |    |    Final URI: http://localhost:8080/index.php [Client.php:3466]
+27AD .|    |    |    |    |    <= 'http://localhost:8080/index.php'
+27AD .|    |    |    |    <= 'http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php'
+27AD .|    |    |    |    => CAS_Client::_readURL('http://ids.ynu.edu.cn/authserver/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Findex.php&ticket=ST-66844-9aZMzFbNG4joILWVddYV1551170014732-ToJx-ids1', NULL, NULL, NULL) [Client.php:3118]
+27AD .|    |    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+27AD .|    |    |    |    |    |    Response Body: 
+27AD .|    |    |    |    |    |    
+27AD .|    |    |    |    |    |    
+27AD .|    |    |    |    |    |    
+27AD .|    |    |    |    |    |    
+27AD .|    |    |    |    |    |    
+27AD .|    |    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+27AD .|    |    |    |    |    |        <cas:authenticationSuccess>
+27AD .|    |    |    |    |    |            <cas:user>20160019</cas:user>
+27AD .|    |    |    |    |    |            
+27AD .|    |    |    |    |    |            
+27AD .|    |    |    |    |    |    
+27AD .|    |    |    |    |    |            
+27AD .|    |    |    |    |    |                <cas:attributes>
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                <cas:uid>20160019</cas:uid>
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                <cas:eduPersonOrgDN>信息技术中心</cas:eduPersonOrgDN>
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                <cas:bindUserList></cas:bindUserList>
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                <cas:cn>刘东华</cas:cn>
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                <cas:status>Active</cas:status>
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                <cas:lifeTime>2099/12/31 23:59:59</cas:lifeTime>
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                <cas:eduPersonStaffID>20160019</cas:eduPersonStaffID>
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                <cas:userName>刘东华</cas:userName>
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                
+27AD .|    |    |    |    |    |                                    <cas:memberOf>cn=10,ou=Groups,dc=ynu,dc=edu,dc=cn</cas:memberOf>
+27AD .|    |    |    |    |    |                                
+27AD .|    |    |    |    |    |                                    <cas:memberOf>cn=bdzqgly,ou=Groups,dc=ynu,dc=edu,dc=cn</cas:memberOf>
+27AD .|    |    |    |    |    |                                
+27AD .|    |    |    |    |    |                                    <cas:memberOf>cn=mstest,ou=Groups,dc=ynu,dc=edu,dc=cn</cas:memberOf>
+27AD .|    |    |    |    |    |                                
+27AD .|    |    |    |    |    |                                    <cas:memberOf>cn=coremailtest,ou=Groups,dc=ynu,dc=edu,dc=cn</cas:memberOf>
+27AD .|    |    |    |    |    |                                
+27AD .|    |    |    |    |    |                                    <cas:memberOf>cn=jy,ou=Groups,dc=ynu,dc=edu,dc=cn</cas:memberOf>
+27AD .|    |    |    |    |    |                                
+27AD .|    |    |    |    |    |                                    <cas:memberOf>cn=bastion,ou=Groups,dc=ynu,dc=edu,dc=cn</cas:memberOf>
+27AD .|    |    |    |    |    |                                
+27AD .|    |    |    |    |    |                                    <cas:memberOf>cn=test,ou=Groups,dc=ynu,dc=edu,dc=cn</cas:memberOf>
+27AD .|    |    |    |    |    |                                
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                                <cas:containerId>uid=20160019,ou=jzg,ou=People</cas:containerId>
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                            
+27AD .|    |    |    |    |    |                        
+27AD .|    |    |    |    |    |                    
+27AD .|    |    |    |    |    |                </cas:attributes>
+27AD .|    |    |    |    |    |            
+27AD .|    |    |    |    |    |    
+27AD .|    |    |    |    |    |        </cas:authenticationSuccess>
+27AD .|    |    |    |    |    |    </cas:serviceResponse>
+27AD .|    |    |    |    |    |    
+27AD .|    |    |    |    |    |     [CurlRequest.php:84]
+27AD .|    |    |    |    |    <= true
+27AD .|    |    |    |    <= true
+27AD .|    |    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:3176]
+27AD .|    |    |    |    |    Found nested jasig style attributes [Client.php:3263]
+27AD .|    |    |    |    |    Attribute [uid] = 20160019 [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [eduPersonOrgDN] = 信息技术中心 [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [bindUserList] =  [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [cn] = 刘东华 [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [status] = Active [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [lifeTime] = 2099/12/31 23:59:59 [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [eduPersonStaffID] = 20160019 [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [userName] = 刘东华 [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [memberOf] = cn=10,ou=Groups,dc=ynu,dc=edu,dc=cn [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [memberOf] = cn=bdzqgly,ou=Groups,dc=ynu,dc=edu,dc=cn [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [memberOf] = cn=mstest,ou=Groups,dc=ynu,dc=edu,dc=cn [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [memberOf] = cn=coremailtest,ou=Groups,dc=ynu,dc=edu,dc=cn [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [memberOf] = cn=jy,ou=Groups,dc=ynu,dc=edu,dc=cn [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [memberOf] = cn=bastion,ou=Groups,dc=ynu,dc=edu,dc=cn [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [memberOf] = cn=test,ou=Groups,dc=ynu,dc=edu,dc=cn [Client.php:3269]
+27AD .|    |    |    |    |    Attribute [containerId] = uid=20160019,ou=jzg,ou=People [Client.php:3269]
+27AD .|    |    |    |    <= ''
+27AD .|    |    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:3188]
+27AD .|    |    |    |    |    No proxies were found in the response [AllowedList.php:81]
+27AD .|    |    |    |    <= true
+27AD .|    |    |    |    => CAS_Client::_renameSession('ST-66844-9aZMzFbNG4joILWVddYV1551170014732-ToJx-ids1') [Client.php:3220]
+27AD .|    |    |    |    |    Killing session: i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:3582]
+27AD .|    |    |    |    |    Starting session: ST-66844-9aZMzFbNG4joILWVddYV1551170014732-ToJx-ids1 [Client.php:3586]
+27AD .|    |    |    |    |    Restoring old session vars [Client.php:3589]
+27AD .|    |    |    |    <= ''
+27AD .|    |    |    <= true
+27AD .|    |    |    CAS 3.0 ticket `ST-66844-9aZMzFbNG4joILWVddYV1551170014732-ToJx-ids1' was validated [Client.php:1411]
+27AD .|    |    |    => CAS_Client::getURL() [Client.php:1472]
+27AD .|    |    |    <= 'http://localhost:8080/index.php'
+27AD .|    |    |    Prepare redirect to : http://localhost:8080/index.php [Client.php:1472]
+27AD .|    |    |    => CAS_Client::getURL() [Client.php:1474]
+27AD .|    |    |    <= 'http://localhost:8080/index.php'
+27AD .|    |    |    exit()
+27AD .|    |    |    -
+27AD .|    |    -
+27AD .|    -
+C14C .START phpCAS-1.3.3 ****************** [CAS.php:438]
+C14C .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+C14C .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+C14C .|    |    Starting a new session ST-66844-9aZMzFbNG4joILWVddYV1551170014732-ToJx-ids1 [Client.php:906]
+C14C .|    <= ''
+C14C .<= ''
+C14C .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+C14C .<= ''
+C14C .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+C14C .<= ''
+C14C .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+C14C .<= ''
+C14C .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+C14C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+C14C .<= ''
+C14C .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+C14C .|    Not a logout request [Client.php:1689]
+C14C .<= ''
+C14C .=> phpCAS::checkAuthentication() [index.php:21]
+C14C .|    => CAS_Client::checkAuthentication() [CAS.php:995]
+C14C .|    |    => CAS_Client::isAuthenticated() [Client.php:1296]
+C14C .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+C14C .|    |    |    |    user = `20160019' [Client.php:1579]
+C14C .|    |    |    <= true
+C14C .|    |    |    user was already authenticated, no need to look for tickets [Client.php:1379]
+C14C .|    |    <= true
+C14C .|    |    user is authenticated [Client.php:1297]
+C14C .|    <= true
+C14C .<= true

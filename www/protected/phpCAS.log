@@ -1,0 +1,170 @@
+D8A4 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+D8A4 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+D8A4 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+D8A4 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+D8A4 .|    <= ''
+D8A4 .<= ''
+D8A4 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login') [casconfig.php:8]
+D8A4 .<= ''
+D8A4 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+D8A4 .<= ''
+D8A4 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/proxyValidate') [casconfig.php:10]
+D8A4 .<= ''
+D8A4 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+D8A4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+D8A4 .<= ''
+D8A4 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+D8A4 .|    Not a logout request [Client.php:1689]
+D8A4 .<= ''
+D8A4 .=> phpCAS::forceAuthentication() [index.php:5]
+D8A4 .|    => CAS_Client::forceAuthentication() [CAS.php:1015]
+D8A4 .|    |    => CAS_Client::isAuthenticated() [Client.php:1245]
+D8A4 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+D8A4 .|    |    |    |    no user found [Client.php:1592]
+D8A4 .|    |    |    <= false
+D8A4 .|    |    |    no ticket found [Client.php:1453]
+D8A4 .|    |    <= false
+D8A4 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1254]
+D8A4 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1613]
+D8A4 .|    |    |    <= 'http://ids.ynu.edu.cn/authserver/login'
+D8A4 .|    |    |    Redirect to : http://ids.ynu.edu.cn/authserver/login [Client.php:1620]
+D8A4 .|    |    |    exit()
+D8A4 .|    |    |    -
+D8A4 .|    |    -
+D8A4 .|    -
+FF7F .START phpCAS-1.3.3 ****************** [CAS.php:438]
+FF7F .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+FF7F .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+FF7F .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+FF7F .|    <= ''
+FF7F .<= ''
+FF7F .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+FF7F .<= ''
+FF7F .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+FF7F .<= ''
+FF7F .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+FF7F .<= ''
+FF7F .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+FF7F .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+FF7F .<= ''
+FF7F .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+FF7F .|    Not a logout request [Client.php:1689]
+FF7F .<= ''
+FF7F .=> phpCAS::forceAuthentication() [index.php:5]
+FF7F .|    => CAS_Client::forceAuthentication() [CAS.php:1015]
+FF7F .|    |    => CAS_Client::isAuthenticated() [Client.php:1245]
+FF7F .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+FF7F .|    |    |    |    no user found [Client.php:1592]
+FF7F .|    |    |    <= false
+FF7F .|    |    |    no ticket found [Client.php:1453]
+FF7F .|    |    <= false
+FF7F .|    |    => CAS_Client::redirectToCas(false) [Client.php:1254]
+FF7F .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1613]
+FF7F .|    |    |    <= 'http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php'
+FF7F .|    |    |    Redirect to : http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php [Client.php:1620]
+FF7F .|    |    |    exit()
+FF7F .|    |    |    -
+FF7F .|    |    -
+FF7F .|    -
+DD53 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+DD53 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+DD53 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+DD53 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+DD53 .|    <= ''
+DD53 .<= ''
+DD53 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+DD53 .<= ''
+DD53 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+DD53 .<= ''
+DD53 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+DD53 .<= ''
+DD53 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+DD53 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+DD53 .<= ''
+DD53 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+DD53 .|    Not a logout request [Client.php:1689]
+DD53 .<= ''
+DD53 .=> phpCAS::forceAuthentication() [index.php:5]
+DD53 .|    => CAS_Client::forceAuthentication() [CAS.php:1015]
+DD53 .|    |    => CAS_Client::isAuthenticated() [Client.php:1245]
+DD53 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+DD53 .|    |    |    |    no user found [Client.php:1592]
+DD53 .|    |    |    <= false
+DD53 .|    |    |    no ticket found [Client.php:1453]
+DD53 .|    |    <= false
+DD53 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1254]
+DD53 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1613]
+DD53 .|    |    |    <= 'http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php'
+DD53 .|    |    |    Redirect to : http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php [Client.php:1620]
+DD53 .|    |    |    exit()
+DD53 .|    |    |    -
+DD53 .|    |    -
+DD53 .|    -
+6932 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+6932 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+6932 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+6932 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+6932 .|    <= ''
+6932 .<= ''
+6932 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+6932 .<= ''
+6932 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+6932 .<= ''
+6932 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+6932 .<= ''
+6932 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+6932 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+6932 .<= ''
+6932 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+6932 .|    Not a logout request [Client.php:1689]
+6932 .<= ''
+6932 .=> phpCAS::forceAuthentication() [index.php:5]
+6932 .|    => CAS_Client::forceAuthentication() [CAS.php:1015]
+6932 .|    |    => CAS_Client::isAuthenticated() [Client.php:1245]
+6932 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+6932 .|    |    |    |    no user found [Client.php:1592]
+6932 .|    |    |    <= false
+6932 .|    |    |    no ticket found [Client.php:1453]
+6932 .|    |    <= false
+6932 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1254]
+6932 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1613]
+6932 .|    |    |    <= 'http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php'
+6932 .|    |    |    Redirect to : http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php [Client.php:1620]
+6932 .|    |    |    exit()
+6932 .|    |    |    -
+6932 .|    |    -
+6932 .|    -
+88F9 .START phpCAS-1.3.3 ****************** [CAS.php:438]
+88F9 .=> phpCAS::client('3.0', 'ids.ynu.edu.cn', 80, '/authserver') [casconfig.php:6]
+88F9 .|    => CAS_Client::__construct('3.0', false, 'ids.ynu.edu.cn', 80, '/authserver', true) [CAS.php:339]
+88F9 .|    |    Starting a new session i4lpe73bqhtpqlk5hugg5mcg8o [Client.php:906]
+88F9 .|    <= ''
+88F9 .<= ''
+88F9 .=> phpCAS::setServerLoginURL('http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php') [casconfig.php:8]
+88F9 .<= ''
+88F9 .=> phpCAS::setServerServiceValidateURL('http://ids.ynu.edu.cn/authserver/serviceValidate') [casconfig.php:9]
+88F9 .<= ''
+88F9 .=> phpCAS::setServerProxyValidateURL('http://ids.ynu.edu.cn/authserver/p3/proxyValidate') [casconfig.php:10]
+88F9 .<= ''
+88F9 .=> phpCAS::setNoCasServerValidation() [casconfig.php:12]
+88F9 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1553]
+88F9 .<= ''
+88F9 .=> CAS_Client::handleLogoutRequests(true, array (  0 => 'localhost',  1 => '8080',)) [CAS.php:1193]
+88F9 .|    Not a logout request [Client.php:1689]
+88F9 .<= ''
+88F9 .=> phpCAS::forceAuthentication() [index.php:5]
+88F9 .|    => CAS_Client::forceAuthentication() [CAS.php:1015]
+88F9 .|    |    => CAS_Client::isAuthenticated() [Client.php:1245]
+88F9 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1356]
+88F9 .|    |    |    |    no user found [Client.php:1592]
+88F9 .|    |    |    <= false
+88F9 .|    |    |    no ticket found [Client.php:1453]
+88F9 .|    |    <= false
+88F9 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1254]
+88F9 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1613]
+88F9 .|    |    |    <= 'http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php'
+88F9 .|    |    |    Redirect to : http://ids.ynu.edu.cn/authserver/login?service=http://localhost:8080/index.php [Client.php:1620]
+88F9 .|    |    |    exit()
+88F9 .|    |    |    -
+88F9 .|    |    -
+88F9 .|    -
